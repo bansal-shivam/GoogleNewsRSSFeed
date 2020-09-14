@@ -1,4 +1,4 @@
-package com.algo.demoaws;
+package com.algo.demoaws.ui;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -6,6 +6,13 @@ import android.util.Log;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.algo.demoaws.network.APIClient;
+import com.algo.demoaws.R;
+import com.algo.demoaws.ui.adapter.RecyclerAdapter;
+import com.algo.demoaws.network.RssService;
+import com.algo.demoaws.data.RssFeed;
+import com.algo.demoaws.data.RssItem;
 
 import java.util.ArrayList;
 

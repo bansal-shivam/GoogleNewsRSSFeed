@@ -1,7 +1,7 @@
-package com.algo.demoaws;
+package com.algo.demoaws.data;
 
 import java.util.List;
-import org.simpleframework.xml.Element;
+
 import org.simpleframework.xml.ElementList;
 import org.simpleframework.xml.Root;
 

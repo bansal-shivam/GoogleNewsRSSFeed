@@ -1,4 +1,4 @@
-package com.algo.demoaws;
+package com.algo.demoaws.data;
 
 import org.simpleframework.xml.Element;
 import org.simpleframework.xml.Root;
